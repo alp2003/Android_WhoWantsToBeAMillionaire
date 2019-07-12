@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "52839862366",
+    "firebase_url": "https://hitmillionaire.firebaseio.com",
+    "project_id": "hitmillionaire",
+    "storage_bucket": "hitmillionaire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52839862366:android:27bf54c250f9af38",
+        "android_client_info": {
+          "package_name": "com.example.user.hitmillionaire11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52839862366-ul78skq2megbeo9mhdeiki57h2g8b01l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.hitmillionaire11",
+            "certificate_hash": "42f96a76650a02d90ec6c1e79f1a8ef3e455ef47"
+          }
+        },
+        {
+          "client_id": "52839862366-dd8l98a3aosh45o9tvr9dks6kr21prl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.hitmillionaire11",
+            "certificate_hash": "1bc6786d71833895f9bba4b2544465648a9decb7"
+          }
+        },
+        {
+          "client_id": "52839862366-d7l34nfrqlok09j858bhkb46dt9t4ofb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUcYllv5ONx9KFfAobL0wnKq_dzmGPkmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52839862366-d7l34nfrqlok09j858bhkb46dt9t4ofb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginbackground"
+    tools:layout_editor_absoluteY="25dp">
+
+    <EditText
+        android:id="@+id/editTextUsername_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:drawableLeft="@drawable/register_tag_faces_black_24dp"
+        android:layout_marginBottom="38dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_edit_text"
+        android:ems="10"
+        android:hint="@string/edit_txt_username"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEmail_signup"
+        android:gravity="center_horizontal"
+        android:drawableLeft="@drawable/register_email_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/login_edit_text"
+        android:ems="10"
+        android:hint="@string/edit_txt_email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword_signup"
+        app:layout_constraintStart_toStartOf="@+id/editTextUsername_signup"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsername_signup" />
+
+    <EditText
+        android:id="@+id/editTextPassword_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:drawableLeft="@drawable/register_lock_black_24dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/login_edit_text"
+        android:ems="10"
+        android:hint="@string/edit_txt_password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextRepassword_signup"
+        app:layout_constraintStart_toStartOf="@+id/editTextEmail_signup"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail_signup" />
+
+    <EditText
+        android:id="@+id/editTextRepassword_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="36dp"
+        android:drawableLeft="@drawable/register_lock_black_24dp"
+        android:background="@drawable/login_edit_text"
+        android:ems="10"
+        android:hint="@string/edit_txt_repassword"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPhone_signup"
+        app:layout_constraintStart_toStartOf="@+id/editTextPassword_signup"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword_signup" />
+
+    <EditText
+        android:id="@+id/editTextPhone_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/login_edit_text"
+        android:ems="10"
+        android:hint="@string/edit_txt_phone"
+        android:drawableLeft="@drawable/register_local_phone_black_24dp"
+        android:inputType="phone"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonSubmit"
+        app:layout_constraintStart_toStartOf="@+id/editTextRepassword_signup"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRepassword_signup" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSubmit"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@mipmap/register"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone_signup" />
+
+
+</android.support.constraint.ConstraintLayout>
